@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Header_Logo from '/assets/logo 1.jpg';
-import Heroimage from '/assets/section.png';
+// import Heroimage from '/assets/section.png';
 import Featured_Icon1 from '/assets/Featured icon (1).png';
 import Check_Icon from '/assets/Check icon.png';
 import Arrow_Icon from '/assets/arrow-left.png';

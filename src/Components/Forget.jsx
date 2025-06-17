@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import Header_Logo from '/assets/logo 1.jpg';
+import Header_Logo from '../assets/logo 1.jpg';
 import Heroimage from '/assets/section.png';
 import Key_Icon from '/assets/key-01.png';
 import Arrow_Icon from '/assets/arrow-left.png';
