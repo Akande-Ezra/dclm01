@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import Header_Logo from '../assets/logo 1.jpg';
-import Heroimage from '../assets/section.png';
-import Featured_Icon2 from '../assets/Featured icon (2).png';
-import Arrow_Icon from '../assets/arrow-left.png';
+import Header_Logo from '/assets/logo 1.jpg';
+import Heroimage from '/assets/section.png';
+import Featured_Icon2 from '/assets/Featured icon (2).png';
+import Arrow_Icon from '/assets/arrow-left.png';
 
 const Resetconf = () => {
   const navigate = useNavigate();

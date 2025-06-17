@@ -1,13 +1,13 @@
 import React from 'react'
-import Header_Logo from '../assets/church_logo-1.png';
-import Home_Icon from '../assets/home-alt-2.png'
-import Cube_Icon from '../assets/cube.png'
-import Community_Icon from '../assets/community.png'
-import Cog_Icon from '../assets/cog.png'
-import Headphone_Icon from '../assets/headphone-mic.png'
-import Profile_Icon from '../assets/profile.png'
-import Search_Icon from '../assets/search.png'
-import Bell_Icon from '../assets/bell (1).png'
+import Header_Logo from '/assets/church_logo-1.png';
+import Home_Icon from '/assets/home-alt-2.png'
+import Cube_Icon from '/assets/cube.png'
+import Community_Icon from '/assets/community.png'
+import Cog_Icon from '/assets/cog.png'
+import Headphone_Icon from '/assets/headphone-mic.png'
+import Profile_Icon from '/assets/profile.png'
+import Search_Icon from '/assets/search.png'
+import Bell_Icon from '/assets/bell (1).png'
 const Dashboard = () => {
   return (
     <div className='flex'>
