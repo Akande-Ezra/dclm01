@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
 
         {/* Form */}
-        <div className="flex-1 flex pt-46">
+        <div className="flex-1 flex Items-center">
         <div className=" max-w-md w-full mx-auto">
           <h2 className="text-3xl font-bold mb-2">Login</h2>
           <p className="text-gray-600 text-lg mb-4">Welcome back! Please enter your credentials.</p>
