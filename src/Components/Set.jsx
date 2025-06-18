@@ -20,7 +20,7 @@ const Set = () => {
         </div>
 
         {/* Form Container - Centered Vertically */}
-        <div className="flex-1 flex pt-16">
+        <div className="flex-1 flex pt-12">
           <div className="max-w-md w-full mx-auto">
             <img src={Featured_Icon1} alt="Key" className="h-16 mx-auto mb-6" />
             <h2 className="text-3xl font-bold text-center mb-2">Set new password</h2>

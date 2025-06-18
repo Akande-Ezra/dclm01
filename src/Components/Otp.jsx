@@ -28,7 +28,7 @@ const Otp = () => {
         </div>
 
         {/* Form Container - Centered Vertically */}
-        <div className="flex-1 flex pt-46">
+        <div className="flex-1 flex pt-30">
           <div className="max-w-md w-full mx-auto text-center">
             <img src={Featured_Icon} alt="Key" className="h-16 mx-auto mb-6" />
             <h2 className="text-3xl font-bold mb-2">OTP Verification</h2>

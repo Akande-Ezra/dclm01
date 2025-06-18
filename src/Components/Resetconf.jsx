@@ -19,7 +19,7 @@ const Resetconf = () => {
         </div>
 
         {/* Content Container - Centered Vertically */}
-        <div className="flex-1 flex pt-46">
+        <div className="flex-1 flex pt-20">
           <div className="max-w-md w-full mx-auto text-center">
             <img src={Featured_Icon2} alt="Success" className="h-16 mx-auto mb-6" />
             <h2 className="text-3xl font-bold text-center mb-2">Password Reset</h2>

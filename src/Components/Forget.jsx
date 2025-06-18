@@ -19,7 +19,7 @@ const Forget = () => {
         </div>
 
         {/* Form Container - Centered Vertically */}
-        <div className="flex-1 flex pt-46">
+        <div className="flex-1 flex pt-30">
           <div className="max-w-md w-full mx-auto">
             <img src={Key_Icon} alt="key" className="h-8 mx-auto mb-6" />
             <h2 className="text-3xl font-bold text-center mb-2">Forgot Password?</h2>
