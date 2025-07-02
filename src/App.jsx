@@ -6,6 +6,8 @@ import Set from './Components/Set';
 import Signup from './Components/Signup';
 import Resetconf from './Components/Resetconf';
 import Dashboard from './Components/Dashboard';
+import Accounts from './Components/Accounts';
+import CreateAcct from './Components/CreateAcct';
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
         <Route path= '/signup' element = {<Signup/>} />
         <Route path='/resetconf' element = {<Resetconf/>} />
         <Route path='/dashboard' element = {<Dashboard/>} />
-
+        <Route path='/accounts' element = {<Accounts/>} />
+        <Route path='/createacct' element = {<CreateAcct/>}/>
+        
       </Routes>
     </Router>
   );
