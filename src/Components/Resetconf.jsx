@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import Header_Logo from '/assets/logo 1.jpg';
+import Header_Logo from '/assets/church_logo-1.png';
 import Heroimage from '/assets/Section.png';
 import Featured_Icon2 from '/assets/Featured icon (2).png';
 import Arrow_Icon from '/assets/arrow-left.png';
@@ -14,12 +14,12 @@ const Resetconf = () => {
       <div className="bg-white flex flex-col p-4 md:p-6 h-full">
         {/* Header */}
         <div className="flex items-center space-x-4 mb-4">
-          <img src={Header_Logo} alt="Logo" className="h-14 w-auto" />
-          <p className="text-2xl font-semibold">Deeper Christian Life Ministry</p>
+          <img src={Header_Logo} alt="Logo" className=" w-8 h-7 " />
+                    <p className="text-xl font-inter font-medium font-semibold">Deeper Christian Life Ministry</p>
         </div>
 
         {/* Content Container - Centered Vertically */}
-        <div className="flex-1 flex pt-20">
+        <div className="flex-1 flex pt-30 md:-mt-2">
           <div className="max-w-md w-full mx-auto text-center">
             <img src={Featured_Icon2} alt="Success" className="h-16 mx-auto mb-6" />
             <h2 className="text-3xl font-bold text-center mb-2">Password Reset</h2>

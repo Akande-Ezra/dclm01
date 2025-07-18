@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import Header_Logo from '/assets/logo 1.jpg';
+import Header_Logo from '/assets/church_logo-1.png';
 import Heroimage from '/assets/Section.png';
 import Key_Icon from '/assets/key-01.png';
 import Arrow_Icon from '/assets/arrow-left.png';
@@ -14,8 +14,8 @@ const Forget = () => {
       <div className="bg-white flex flex-col p-4 md:p-6 h-full">
         {/* Header */}
         <div className="flex items-center space-x-4 mb-4">
-          <img src={Header_Logo} alt="Logo" className="h-14 w-auto" />
-          <p className="text-2xl font-semibold">Deeper Christian Life Ministry</p>
+         <img src={Header_Logo} alt="Logo" className=" w-8 h-7 " />
+                   <p className="text-xl font-inter font-medium font-semibold">Deeper Christian Life Ministry</p>
         </div>
 
         {/* Form Container - Centered Vertically */}

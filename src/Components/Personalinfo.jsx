@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import Header_Logo from '/assets/church_logo-1.png';
 import Home_Icon from '/assets/home-alt-2.png';
@@ -10,11 +10,12 @@ import Profile_Icon1 from '/assets/Avatars.png';
 import Search_Icon from '/assets/search.png';
 import Bell_Icon from '/assets/bell (1).png';
 import Special_Icon from '/assets/secondary.png';
-
-const CreateAcct = () => {
-  const navigate = useNavigate();
-
+import Hello_Icon from '/assets/Image.png'
+const Personalinfo = () => {
+    const navigate = useNavigate();
+    
   return (
+    
     <div className="flex h-screen overflow-hidden">
       <div className="bg-gray-900 h-full p-5 pt-8 w-60 relative overflow-y-auto">
         <div className="flex gap-2">
@@ -97,146 +98,77 @@ const CreateAcct = () => {
         <br />
         <div>
           <p className="bg-gray-200 cursor-pointer border border-gray-200 p-4 w-96 mt-4 rounded-lg text-gray-500 text-xl">
-            <Link to="/accounts">Back</Link> |{' '}
-            <span className="text-blue-700 space-x-2">Accounts</span> / Create
-            Accounts
+            <Link to="/createAcct">Back</Link> |{' '}
+            <span className="text-blue-700 space-x-2">Accounts</span> /
+            User Profile
           </p>
         </div><br />
-<div className="w-full min-h-screen bg-white border border-gray-200  rounded-lg p-4">
+<div className="w-   min-h-screen relative bg-white border border-gray-200  rounded-lg p-4">
   <div className="grid grid-cols-2 gap-12 h-full mt-6 items-start gap-12">
     {/* Left Side - Profile and First 3 Inputs with Selects */}
     <div className="flex flex-col space-y-6">
       {/* Profile Section */}
-      <div className="flex items-center gap-4">
-        <img className="w-30" src={Profile_Icon1} alt="Profile" />
+      <div className="items-center gap-4">
+        <img className="w-30" src={Hello_Icon} alt="Profile" />
         <div>
-          <h1 className="font-medium text-base leading-normal">Profile picture</h1>
-          <br />
-          <p className="text-sm antialiased">
-            This image will be displayed on your profile
+          <h1 className="font-medium text-base leading-normal">Mrs Adebimpe Abigeal Eshupofo</h1>
+          <p className="text-sm antialiased font-gray-100">
+            Legal practitioner
           </p>
-          <br />
-          <img src={Special_Icon} alt="Special" className="w-40 " />
+         <br />
+         <p className='text-sm antialiased text-gray-900'>Other Information</p>
         </div>
       </div>
 
       {/* First 3 Inputs */}
       <div>
-        <label className="block mb-2 text-sm font-medium text-gray-700 font-bold">
-          First Name
-        </label>
-        <input
-          type="text"
-          placeholder="Enter first name"
-          className="w-[600px] h-[56px] rounded-[8px] rotate-0 opacity-100 border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-        />
+       
+       <h1 className='font-medium text-lg leading-normal'>User Type</h1>
+       <p className='text-base antialiased text-gray-600'>Info goes here</p>
       </div>
       <div>
-        <label className="block mb-2 text-sm font-medium text-gray-700 font-bold">
-          Second Name
-        </label>
-        <input
-          type="text"
-          placeholder="Enter second name"
-          className="w-full h-[56px] rounded-[8px] rotate-0 opacity-100 border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-        />
+        <h1 className='font-medium text-lg leading-normal'>User sub-Type</h1>
+       <p className='text-base antialiased text-gray-600'>Info goes here</p>
       </div>
       <div>
-        <label className="block mb-2 text-sm font-medium text-gray-700 font-bold">
-          Second Name
-        </label>
-        <input
-          type="text"
-          placeholder="Enter second name"
-          className="w-full h-[56px] rounded-[8px] rotate-0 opacity-100 border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-        />
+         <h1 className='font-medium text-lg leading-normal'>Membership</h1>
+       <p className='text-base antialiased text-gray-600'>Info goes here</p>
       </div>
       <div>
-        <label className="block mb-2 text-sm font-medium text-gray-700 font-bold">
-          User Type
-        </label>
-        <select
-          className="w-full h-[56px] rounded-[8px] rotate-0 opacity-100 border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-        >
-          <option value="" disabled selected>Select</option>
-          <option value="admin">Admin</option>
-          <option value="user">User</option>
-        </select>
+        <h1 className='font-medium text-lg leading-normal'>Username</h1>
+       <p className='text-base antialiased text-gray-600'>Info goes here</p>
       </div>
       <div>
-        <label className="block mb-2 text-sm font-medium text-gray-700 font-bold">
-          User Sub Type
-        </label>
-        <select
-          className="w-full h-[56px] rounded-[8px] rotate-0 opacity-100 border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-        >
-          <option value="" disabled selected>Select</option>
-          <option value="admin">Admin</option>
-          <option value="user">User</option>
-        </select>
+        <h1 className='font-medium text-lg leading-normal'>Email Address</h1>
+       <p className='text-base antialiased text-gray-600'>Info goes here</p>
       </div>
       <div>
-        <label className="block mb-2 text-sm font-medium text-gray-700 font-bold">
-          Access to
-        </label>
-        <select
-          className="w-full h-[56px] rounded-[8px] rotate-0 opacity-100 border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-        >
-          <option value="" disabled selected>Select</option>
-          <option value="admin">Admin</option>
-          <option value="user">User</option>
-        </select>
+       <h1 className='font-medium text-lg leading-normal'>Password</h1>
+       <p className='text-base antialiased text-gray-600'>Info goes here</p>
       </div>
     </div>
 
     {/* Right Side - Remaining Inputs and Buttons */}
-    <div className="flex flex-col space-y-6 mt-37.5">
+    <div className="flex flex-col space-y-6 mt-59">
       <div>
-        <label className="block mb-2 text-sm font-medium text-gray-700 font-bold">
-          Email Address
-        </label>
-        <input
-          type="email"
-          placeholder="Enter email address"
-          className="w-full h-[56px] rounded-[8px] rotate-0 opacity-100 border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-        />
+       <h1 className='font-medium text-lg leading-normal'>Module Access</h1>
+       <p className='text-base antialiased text-gray-600'>Leadership strategic congress module </p>
+       <p className='text-base antialiased text-gray-600'>Staff Portal Module</p>
+       <p className='text-base antialiased text-gray-600'>Membership Module</p>
+       <p className='text-base antialiased text-gray-600'>HCF Module</p>
+       <p className='text-base antialiased text-gray-600'>Attendance Module</p>
+       <p className='text-base antialiased text-gray-600'>Marriage Commitee Module</p>
       </div>
-      <div>
-        <label className="block mb-2 text-sm font-medium text-gray-700 font-bold">
-          Phone Number
-        </label>
-        <input
-          type="tel"
-          placeholder="Enter phone number"
-          className="w-full h-[56px] rounded-[8px] rotate-0 opacity-100 border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-        />
-      </div>
-      <div>
-        <label className="block mb-2 text-sm font-medium text-gray-700 font-bold">
-          Address
-        </label>
-        <input
-          type="text"
-          placeholder="Enter address"
-          className="w-full h-[56px] rounded-[8px] rotate-0 opacity-100 border border-gray-300 p-4 focus:ring-2 focus:ring-blue-500 focus:outline-none"
-        />
-      </div>
+      
+      
      <div className="relative w-full">
-  <div className="flex space-x-4 mt-63.5 absolute right-0">
-    <button className="w-30 h-12 rounded-lg border border-gray-400"onClick={() => navigate('/accounts')}>Cancel</button>
-    <button className="w-40 h-12 text-white bg-blue-800 border border-gray-400 rounded-lg" onClick={() => navigate('/personalinfo')}>
-      Create Account
-    </button>
-  </div>
+  
 </div>
     </div>
   </div>
 </div>          </div>
         </div>
-      
-     
-    
-  );
-};
+  )
+}
 
-export default CreateAcct;
+export default Personalinfo

@@ -8,6 +8,8 @@ import Resetconf from './Components/Resetconf';
 import Dashboard from './Components/Dashboard';
 import Accounts from './Components/Accounts';
 import CreateAcct from './Components/CreateAcct';
+import Personalinfo from './Components/Personalinfo';
+import Editdetails from './Components/Editdetails';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path='/dashboard' element = {<Dashboard/>} />
         <Route path='/accounts' element = {<Accounts/>} />
         <Route path='/createacct' element = {<CreateAcct/>}/>
+       <Route path='/personalinfo' element = {<Personalinfo/>}/>
+       <Route path='/editdetails' element = {<Editdetails/>}/>
         
       </Routes>
     </Router>
